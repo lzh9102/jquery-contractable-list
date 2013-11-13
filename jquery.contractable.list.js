@@ -1,4 +1,5 @@
-$(function() {
+jQuery(function() {
+  var $ = jQuery;
   var toggle_list = function(button, sublists) {
     if (button.hasClass('arrow-down')) { // show sublist
       button.removeClass('arrow-down').addClass('arrow-up');
